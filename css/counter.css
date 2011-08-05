@@ -1,14 +1,11 @@
-/*
+body {background:url('../img/concrete.jpg');}
+#wrapper {float: right;position: relative;left: -50%;margin-top:100px; padding:50px;background:#FFF;
+  -webkit-border-radius:30px; -webkit-box-shadow: 8px 8px 30px 5px #363436; border: solid #9BC9F3 21px;
+  
+}
+/*#flip_counter {padding:50px;}*/
 
-Styling the counter itself.
-Set image paths accordingly.
-
-THIS YOU NEED TO KEEP.
-
-So you can have multiple counters on a page, just make sure each one has a class of "flip-counter".
-
-*/
-
+/* CSS by Chris Nanney:*/
 .flip-counter ul.cd{float:left;list-style-type:none;margin:0;padding:0}
 .flip-counter li{background:url(../img/digits.png) 0 0 no-repeat}
 .flip-counter li.t{background-position:0 0;width:53px;height:39px}
